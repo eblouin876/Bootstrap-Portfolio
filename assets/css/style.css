@@ -72,6 +72,12 @@ h2 {
 }
 
 
+/* Modifications for portfolio page */
+
+.portfolioPic {
+    margin-bottom: 1rem;
+}
+
 /* Modifications for footer */
 
 .footer {
