@@ -49,12 +49,26 @@ hr {
     color: #ddd;
 }
 
+h2 {
+    position: relative;
+    left: 1rem;
+}
+
 
 /* Modifications for Contact Page */
 .submitbutton {
     background-color: #4aaaa5 !important;
     border: 2px outset #4aaaa5;
     float: left;
+}
+
+/* Modifications for about page */
+.profilePic {
+    float: left;
+    padding: .25em;
+    position: relative;
+    right: 1em;
+    padding-bottom: .5rem;
 }
 
 
