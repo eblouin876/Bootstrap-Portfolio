@@ -2,32 +2,43 @@
 
 body {
     background-image: url('../images/background.png');
+    color: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 
 /* Header Modifications */
 .pagelink {
-    color: gray;
+    color: #777;
 }
 
 .portfolio-name {
     color: white !important;
-    background: teal;
+    background: #4aaaa5;
     padding: 5px;
     font-size: 2em;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+#navBar {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
 
+.navbarLinks {
+    float: right;
+}
 
 /* Universal modifications for body content */
 .mainbox {
     text-align: center;
     margin-top: 1.5em;
-    background: white;
+    background: #fff;
+    border: 1px solid #ddd;
 }
 
 .content-header {
-    color: teal;
+    color: #4aaaa5;
     padding: 5px;
     margin-bottom: 0px;
 }
@@ -35,12 +46,30 @@ body {
 hr {
     margin-top: .5rem;
     margin-bottom: .5rem;
+    color: #ddd;
 }
 
 
 /* Modifications for Contact Page */
 .submitbutton {
-    background-color: teal !important;
-    border: 2px outset teal;
+    background-color: #4aaaa5 !important;
+    border: 2px outset #4aaaa5;
     float: left;
+}
+
+
+/* Modifications for footer */
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #666;    
+    height: 2.5rem;
+    border-top: .4rem solid #4aaaa5;
+}
+
+.copyright {
+    color: white;
+    font-size: .75rem;
 }
