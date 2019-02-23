@@ -1,0 +1,27 @@
+.pagelink {
+    color: gray;
+}
+
+.portfolio-name {
+    color: white !important;
+    background: teal;
+    padding: 5px;
+    font-size: 2em;
+}
+
+.mainbox {
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 1.5em;
+}
+
+.content-header {
+    color: teal;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+hr {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
