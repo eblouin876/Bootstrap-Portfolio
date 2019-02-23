@@ -1,3 +1,11 @@
+/* Full document modifications */
+
+body {
+    background-image: url('../images/background.png');
+}
+
+
+/* Header Modifications */
 .pagelink {
     color: gray;
 }
@@ -9,10 +17,13 @@
     font-size: 2em;
 }
 
+
+
+/* Universal modifications for body content */
 .mainbox {
     text-align: center;
-    border: 1px solid black;
     margin-top: 1.5em;
+    background: white;
 }
 
 .content-header {
@@ -24,4 +35,12 @@
 hr {
     margin-top: .5rem;
     margin-bottom: .5rem;
+}
+
+
+/* Modifications for Contact Page */
+.submitbutton {
+    background-color: teal !important;
+    border: 2px outset teal;
+    float: left;
 }
