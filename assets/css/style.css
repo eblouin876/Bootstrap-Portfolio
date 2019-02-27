@@ -1,5 +1,4 @@
 /* Full document modifications */
-
 body {
     background-image: url('../images/background.png');
     color: #777;
@@ -7,38 +6,39 @@ body {
 }
 
 
+
 /* Header Modifications */
 .pagelink {
-    color: #777;
+    color: #def2f1;
 }
 
 .portfolio-name {
-    color: white !important;
-    background: #4aaaa5;
-    padding: 5px;
-    font-size: 2em;
+    color: #feffff !important;
+    background: #3aafa9;
+    padding: .25rem;
+    font-size: 2rem;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #navBar {
-    background-color: #fff;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #feffff;
+    padding: 0 5rem;
 }
 
-.navbarLinks {
-    float: right;
-}
+
+
+
 
 /* Universal modifications for body content */
 .mainbox {
     text-align: center;
-    margin-top: 1.5em;
-    background: #fff;
-    border: 1px solid #ddd;
+    margin-top: 5.5rem;
+    background: #feffff;
+    border: 1px solid #feffff;
 }
 
 .content-header {
-    color: #4aaaa5;
+    color: #3aafa9;
     padding: 5px;
     margin-bottom: 0px;
 }
@@ -55,12 +55,21 @@ h2 {
 }
 
 
+
+
 /* Modifications for Contact Page */
 .submitbutton {
-    background-color: #4aaaa5 !important;
-    border: 2px outset #4aaaa5;
+    background-color: #2b7a78 !important;
+    border: 2px outset #2b7a78;
     float: left;
 }
+
+.button_color {
+    background-color: #2b7a78 !important;
+    border: 2px outset #2b7a78;
+}
+
+
 
 /* Modifications for about page */
 .profilePic {
@@ -69,27 +78,70 @@ h2 {
     position: relative;
     right: 1em;
     padding-bottom: .5rem;
+    min-width: 150px;
 }
+
+
+
 
 
 /* Modifications for portfolio page */
-
-.portfolioPic {
+.portfolio_card {
     margin-bottom: 1rem;
+    border: none;
 }
 
+.card_body {
+    background-color: #feffff;
+    border: none;
+}
+
+
+
+
 /* Modifications for footer */
+.footer_padding {
+    height: 3.5rem;
+    width: 50%;
+}
 
 .footer {
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    background-color: #666;    
+    background-color: #17252A;
     height: 2.5rem;
-    border-top: .4rem solid #4aaaa5;
+    border-top: .4rem solid #2b7a78;
 }
 
 .copyright {
     color: white;
     font-size: .75rem;
 }
+
+
+
+
+/* Media Queries */
+@media screen and (max-width: 576px) {
+    #navBar {
+        border-bottom: 1px solid #feffff;
+        padding: 0;
+    }
+
+    /* 
+    .footer {
+        position: absolute;
+        bottom: 0;
+    } */
+}
+
+
+/* Color Pallet */
+/*
+    color: #17252A;
+    color: #2b7a78;
+    color: #3aafa9;
+    color: #def2f1;
+    color: #feffff;
+*/
